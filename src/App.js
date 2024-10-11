@@ -4,7 +4,7 @@ import { Card, CardContent, Button, Typography, Container, Grid, AppBar, Toolbar
 
 
 const projects = [
-  { title: 'Travel Magazine', description: 'Year 1 project using HTML, CSS, and template for home page.', link: 'https://lchen7809.github.io/Static-Web-Travel-Magazine-/' },
+  { title: 'E-Learning Platform', description: 'Online E-learning platform. This takes a while to load.', link: 'https://elearning-f2dw.onrender.com/' },
   { title: 'E-Commerce', description: 'Press Login button (no credential needed) to explore the website.', link: 'https://lchen7809.github.io/hackathonsim/login.html' },
   { title: 'Weather App', description: 'Multi-functional weather app. Developed with React Native.', link: 'https://snack.expo.dev/@chenleyi7809/weatherapp' },
 ];
@@ -28,9 +28,9 @@ function App() {
                 Hello, I'm Leyi!
               </Typography>
               <Typography variant="body1" aria-label="Short intro" gutterBottom>
-              A fresh graduate frontend developer dedicated to crafting intuitive and visually engaging web interfaces. With a strong foundation in frontend development, I strive to bring impactful user experiences to life through clean, efficient code and a user-centric approach.              </Typography>
+              A fresh computer science graduate with a strong enthusiasm for creating impactful and meaningful software. 
+              Throughout my studies and internship experiences, I’ve developed a solid foundation in software development and have had the opportunity to work on projects that prioritize user experience and solve real-world problems.              </Typography>
             </Grid>
-
             <Grid item xs={12} md={6} style={{ textAlign: 'center' }}>
               <img 
                 src={`${process.env.PUBLIC_URL}/dp.jpg`} 
